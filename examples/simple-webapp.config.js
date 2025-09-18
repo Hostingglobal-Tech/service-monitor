@@ -8,7 +8,7 @@
 const path = require('path');
 
 // 프로젝트 루트 디렉토리 (여기를 수정하세요!)
-const PROJECT_ROOT = '/home/nmsglobal/my-web-project';
+const PROJECT_ROOT = '/path/to/your/web-project';
 const SERVICE_MONITOR_ROOT = path.dirname(__dirname);
 
 module.exports = {
