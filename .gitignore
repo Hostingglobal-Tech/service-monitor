@@ -1,0 +1,37 @@
+# Logs
+logs/
+*.log
+*.log.*
+*.gz
+
+# PM2 and runtime artifacts
+.pm2/
+config/ecosystem.config.js
+
+# Local configuration files
+config/service-monitor.config.js
+config/local.config.js
+*.local.js
+
+# Environment files
+.env
+.env.*
+
+# Development files
+.serena/
+
+# Node caches/deps (if added later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Backup files
+*.bak
+
